@@ -1,0 +1,19 @@
+{
+  "name": "laundry",
+  "version": "0.0.0",
+  "description": "Special theme for the laundry.",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehrdad-dindar/laundry.git"
+  },
+  "author": "Mehrdad Dindar",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/mehrdad-dindar/laundry/issues"
+  },
+  "homepage": "https://github.com/mehrdad-dindar/laundry#readme"
+}
