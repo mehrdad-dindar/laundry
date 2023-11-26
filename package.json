@@ -4,7 +4,8 @@
   "description": "Special theme for the laundry.",
   "main": "index.php",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tw": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "dev": "postcss ./src/main.css -o ./style.min.css --watch"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/mehrdad-dindar/laundry/issues"
   },
-  "homepage": "https://github.com/mehrdad-dindar/laundry#readme"
+  "homepage": "https://github.com/mehrdad-dindar/laundry#readme",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "autoprefixer": "^10.4.16",
+    "cssnano": "^6.0.1",
+    "postcss": "^8.4.31",
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.3.5"
+  }
 }
