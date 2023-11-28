@@ -2,8 +2,8 @@
 get_header();
 ?>
 <main class="container mx-auto my-6 grid grid-cols-1 md:grid-cols-2 gap-8">
-    <div class="rounded-lg overflow-hidden">
-        <div class="swiper">
+    <div class="flex items-center">
+        <div class="swiper rounded-lg">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
                 <!-- Slides -->
@@ -20,7 +20,7 @@ get_header();
     </div>
     <div class="flex flex-col justify-center items-center">
         <h1 class="font-bold text-2xl mb-6">نصب، تعمیر و سرویس انواع لباسشویی</h1>
-        <ul class="leading-8 list-image-checkmark">
+        <ul class="leading-8 list-image-checkmark list-disc">
             <li>نصب، نگهداری و تعمیر انواع لباسشویی ال جی، سامسونگ، دوو، بوش و پاکشوما</li>
             <li>تعویض قطعات فرسوده و معیوب انواع لباسشویی</li>
             <li>تهیه و توضیع قطعات و لوازم جانبی انواع لباسشویی</li>

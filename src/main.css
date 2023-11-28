@@ -19,7 +19,7 @@
 @tailwind utilities;
 
 body {
-    @apply bg-laundry-50 font-iransans text-laundry-900;
+    @apply bg-laundry-50 font-iransans text-laundry-900 text-[0.9rem];
 }
 .swiper-pagination-bullet{
     @apply bg-laundry-500;
