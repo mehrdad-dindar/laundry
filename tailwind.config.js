@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./**/*.php"],
   theme: {
+    fontFamily: {
+      iransans: ["IRANSansX"],
+    },
     extend: {
       colors: {
         laundry: {
