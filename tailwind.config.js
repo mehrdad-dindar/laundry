@@ -6,6 +6,9 @@ module.exports = {
       iransans: ["IRANSansX"],
     },
     extend: {
+      listStyleImage: {
+        checkmark: 'url("./imgs/check.svg")',
+      },
       colors: {
         laundry: {
           50: "#f2f8fd",
