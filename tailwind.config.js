@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       listStyleImage: {
         checkmark: 'url("./imgs/check.svg")',
+        thumbs: 'url("./imgs/thumbs.svg")',
       },
       colors: {
         laundry: {

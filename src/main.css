@@ -27,6 +27,7 @@ body {
 .swiper-pagination-bullet-active{
     @apply bg-laundry-600;
 }
-.list-image-checkmark li{
+.list-image-checkmark li,
+.list-image-thumbs li{
     @apply pr-2;
 }
