@@ -1,0 +1,33 @@
+@font-face {
+    font-family: IRANSansX;
+    font-style: normal;
+    font-weight: bold;
+    src: url('./fonts/woff/IRANSansX-Bold.woff') format('woff'),
+    url('./fonts/woff2/IRANSansX-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: IRANSansX;
+    font-style: normal;
+    font-weight: normal;
+    src: url('./fonts/woff/IRANSansX-Regular.woff') format('woff'),
+    url('./fonts/woff2/IRANSansX-Regular.woff2') format('woff2');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-laundry-50 font-iransans text-laundry-900 text-[0.9rem];
+}
+.swiper-pagination-bullet{
+    @apply bg-laundry-500;
+}
+.swiper-pagination-bullet-active{
+    @apply bg-laundry-600;
+}
+.list-image-checkmark li,
+.list-image-thumbs li{
+    @apply pr-2;
+}
