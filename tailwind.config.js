@@ -6,6 +6,10 @@ module.exports = {
       iransans: ["IRANSansX"],
     },
     extend: {
+      listStyleImage: {
+        checkmark: 'url("./imgs/check.svg")',
+        thumbs: 'url("./imgs/thumbs.svg")',
+      },
       colors: {
         laundry: {
           50: "#f2f8fd",
@@ -21,6 +25,10 @@ module.exports = {
           950: "#0f2942",
         },
       },
+    },
+    container: {
+      center: true,
+      padding: "2rem",
     },
   },
   plugins: [],
